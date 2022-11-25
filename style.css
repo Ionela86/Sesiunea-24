@@ -1,0 +1,100 @@
+/* Customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2bb686;
+  border-color: #2bb686;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+/* Adaugam font-ul nostru */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Header */
+header {
+  height: 30vh;
+}
+
+.weather-forecast-box > * {
+  flex: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#scrolltop {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s ease-in;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(11, 11, 11, 0.4);
+  border-radius: 20%;
+}
+
+body {
+  background: linear-gradient(180deg, #dadfe2 0%, #4b5891 100%);
+  color: rgb(13, 13, 13);
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: center;
+  padding: 40px;
+}
+.top-button {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px;
+  color: black;
+}
+
+.long-text {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.2);
+}
